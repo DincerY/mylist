@@ -99,3 +99,7 @@ func (list *List[T]) String() string {
 	}
 	return res
 }
+
+func Version() string {
+	return "v0.2"
+}
